@@ -1,0 +1,18 @@
+.animal {
+    width: 300px;
+    border: 5px black dashed;
+    margin-left: 10px;
+}
+
+#animal-box {
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+    border: 5px black solid;
+    margin: 0 auto 0 auto;
+
+    display: flex;
+
+    overflow: auto; /* Добавление scrollbar */
+    scrollbar-color: black white; /* цвет (полоса/фон) scrollbar */
+}
