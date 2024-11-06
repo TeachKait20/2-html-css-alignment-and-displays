@@ -77,7 +77,7 @@
 
 ![image](https://github.com/user-attachments/assets/281f9b7f-49b3-4479-bf71-9a049c67ef88)
 
-## Пример с grid
+## Пример с `grid`
 У каждого описанного выше свойства `display` есть отдельные свойства для его работы. разберём пример с `grid`.<br><br>
 `grid` - создаст идеальную сетку. Её можно использовать при будущей адаптации страницы. 
 
@@ -105,3 +105,51 @@
 
 ![image](https://github.com/user-attachments/assets/d3791c7e-f7e8-4070-a016-998312e1f248)
 
+## Пример с `flex`
+
+Можно расположить элементы горизонтально и создать scrollbar. 
+
+Шаг 1.
+```css
+.animal {
+    width: 300px;
+    border: 5px black dashed;
+    margin-left: 10px;
+}
+
+#animal-box {
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+    border: 5px blue solid;
+    margin: 0 auto 0 auto;
+
+    display: flex;
+}
+```
+
+![image](https://github.com/user-attachments/assets/02f655f8-6ca2-4032-aba9-b828808eaf46)
+
+Шаг 2.
+```css
+.animal {
+    width: 300px;
+    border: 5px black dashed;
+    margin-left: 10px;
+}
+
+#animal-box {
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+    border: 5px black solid;
+    margin: 0 auto 0 auto;
+
+    display: flex;
+
+    overflow: auto; /* Добавление scrollbar */
+    scrollbar-color: black white; /* цвет (полоса/фон) scrollbar */
+}
+```
+
+<img src="https://github.com/TeachKait20/NoneCode/blob/main/display+html/scroll-animals.gif?raw=true">
