@@ -1,4 +1,4 @@
-# 2-html-css-alignment-and-displays 
+# 2-html-css-alignment-and-displays
 ## html-css выравнивание и отображение 
 
 Создадим страницу с изображениями животных и будем по разному их отображать. 
